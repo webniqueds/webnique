@@ -468,15 +468,15 @@
   /* Adjust image width */
   margin: 0 15px;
   /* Spacing between images */
-  border-radius: 8px;
+  /* border-radius: 8px; */
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
 
 .marquee-item.work img {
   width: 100%;
   height: 200px;
-  object-fit: fill;
+  object-fit: contain !important; 
   transition: transform 0.3s;
 }
 
